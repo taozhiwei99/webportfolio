@@ -1,18 +1,12 @@
 import React from 'react';
 import './home.css';
 import mePhoto from '../assets/selfie.jpg'
-import myResume from '../assets/ZHIWEI_RESUME.pdf'
 
 function Home() {
-    const resumePath = myResume;
-
+    
     function downloadFile() {
-        const link = document.createElement('a');
-        link.href = resumePath;
-        link.download = "ZHIWEI_RESUME.pdf"
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+       const resumeLink = 'https://drive.google.com/file/d/1L5xf4Bk9Pm0lakGlSB27NwJNcgIh62Uh/view?usp=drive_link';
+       window.open(resumeLink,'_blank');
     }
 
 
