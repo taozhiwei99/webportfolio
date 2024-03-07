@@ -4,9 +4,15 @@ import mePhoto from '../assets/selfie.jpg'
 import myResume from '../assets/ZHIWEI_RESUME.pdf'
 
 function Home() {
+    const resumePath = myResume;
+
     function downloadFile() {
-        const resumePath = myResume;
-        window.open(resumePath, '_blank');
+        const link = document.createElement('a');
+        link.href = resumePath;
+        link.download = "ZHIWEI_RESUME.pdf"
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     }
 
 
