@@ -1,0 +1,102 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+  
+.imageDisplay {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.5),
+    0 0 40px rgba(255, 255, 255, 0.5),
+    0 0 50px rgba(255, 255, 255, 0.5);
+    animation: bounce 1.5s infinite alternate;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+  
+.meImage {
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+}
+
+.textMsg {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.textBox {
+    position: relative;
+    width: 650px;
+    height: 280px;
+    padding: 60px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.25),
+                0 0 30px rgba(255, 255, 255, 0.25),
+                0 0 40px rgba(255, 255, 255, 0.25),
+                0 0 50px rgba(255, 255, 255, 0.25);
+  }
+
+  .headerbox {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .messages {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .details{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .downloadButton {
+    background-color: #070a14;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.15s;
+    margin-top: 15px;
+}
+
+    .downloadButton:hover {
+    background-color: #0b438b;
+}
