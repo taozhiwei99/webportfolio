@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 import mePhoto from '../assets/selfie.jpg'
-import myResume from '../assets/TAOZHIWEI_RESUME.pdf'
+import myResume from '../assets/ZHIWEI_RESUME.pdf'
 
 function Home() {
     function downloadFile() {
