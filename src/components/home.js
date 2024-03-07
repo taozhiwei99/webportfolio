@@ -17,7 +17,7 @@ function Home() {
             </div>
             <div className="textMsg">
                 <p className="messages">
-                    Hi, I am ZhiWei! <br/>Welcome to my website!<br/>
+                    Hi, I am Zhi Wei! <br/>Welcome to my website!<br/>
                     This website is self-built with React JS
                 </p>
             </div>
