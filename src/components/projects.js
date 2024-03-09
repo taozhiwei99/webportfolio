@@ -12,7 +12,7 @@ const projectData = [
   {
       title: "Bus Booking App",
       img: BusImg,
-      description: `Built with React Native and RESTful APIs, 
+      description: `Built with React Native and RESTful APIs, tested using Expo Go 
       this app integrates AWS services (S3, RDS, API Gateway, Lambda, WebSocket) 
       to streamline school bus booking for children.`,
       video: 'https://drive.google.com/file/d/143raoqesMF-sfDXADpbo7N8aLRNmKr_Q/view?usp=sharing',
@@ -33,7 +33,7 @@ const projectData = [
   {
       title: "Book Rating Website",
       img: BookImg,
-      description: `Website built with .NET and PHP backend, 
+      description: `Website built with HTML and PHP backend, 
       simulating a research paper platform for publishing, reading, and rating papers.`,
   },
   {
