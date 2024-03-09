@@ -43,7 +43,7 @@ const projectData = [
     description: `This Python program accomplishes two tasks: 
     generating passwords and creating a rainbow table, then finding the pre-image 
     of a hashed password using that rainbow table.`
-  }
+  },
   {
       title: "More to come",
       img: gearImg,
