@@ -15,7 +15,7 @@ const projectData = [
       description: `Built with React Native and RESTful APIs, 
       this app integrates AWS services (S3, RDS, API Gateway, Lambda, WebSocket) 
       to streamline school bus booking for children.`,
-      video: '',
+      video: 'https://drive.google.com/file/d/143raoqesMF-sfDXADpbo7N8aLRNmKr_Q/view?usp=sharing',
   },
   {
       title: "Web Portal Management",
@@ -23,7 +23,7 @@ const projectData = [
       description: `A ReactJS website styled with Tailwind CSS, resembling a 
       modern bus company platform. Manages bookings, subscriptions, and admin 
       tasks using AWS services (Amplify, S3 API Gateway, Lambda, RDS).`,
-      video: '',
+      video: 'https://drive.google.com/file/d/1jt9sBStfh9hhRnj49KiPeG-clQJUzYob/view?usp=sharing',
   },
   {
       title: "AI Dog Breed Finder",
