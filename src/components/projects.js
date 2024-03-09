@@ -7,6 +7,7 @@ import webImg from '../assets/webportal.png';
 import AIImg from '../assets/AI.png';
 import BookImg from '../assets/books.png';
 import gearImg from '../assets/gears.png';
+import rainbow from '../assets/rainbow.png';
 
 const projectData = [
   {
@@ -36,6 +37,13 @@ const projectData = [
       description: `Website built with HTML and PHP backend, 
       simulating a research paper platform for publishing, reading, and rating papers.`,
   },
+  {
+    title: "Rainbow Table",
+    img: rainbow,
+    description: `This Python program accomplishes two tasks: 
+    generating passwords and creating a rainbow table, then finding the pre-image 
+    of a hashed password using that rainbow table.`
+  }
   {
       title: "More to come",
       img: gearImg,
