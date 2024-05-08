@@ -5,7 +5,7 @@ import mePhoto from '../assets/selfie.jpg'
 function Home() {
     
     function downloadFile() {
-       const resumeLink = 'https://drive.google.com/file/d/1L5xf4Bk9Pm0lakGlSB27NwJNcgIh62Uh/view?usp=drive_link';
+       const resumeLink = 'https://drive.google.com/file/d/1gpeCjN2BmwAXm_x_5eFy1_nSC6J9uIy6/view?usp=sharing';
        window.open(resumeLink,'_blank');
     }
 
@@ -29,7 +29,7 @@ function Home() {
                 Seeking new opportunities to learn and grow in the tech industry!
                 </p>
                 <button className="downloadButton" 
-                onClick={downloadFile}>Downlod Resume</button>
+                onClick={downloadFile}>Download Resume</button>
             </div>
         </div>
     )
