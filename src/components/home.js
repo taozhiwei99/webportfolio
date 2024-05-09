@@ -5,7 +5,7 @@ import mePhoto from '../assets/selfie.jpg'
 function Home() {
     
     function downloadFile() {
-       const resumeLink = 'https://drive.google.com/file/d/1eVA3hyDRc6clFJrVXkyUfAkEL6YfMRRm/view?usp=sharing';
+       const resumeLink = 'https://drive.google.com/file/d/1ieYfdHvdxv8i6Hl81CRpfwu9kQPTlTOV/view?usp=sharing';
        window.open(resumeLink,'_blank');
     }
 
